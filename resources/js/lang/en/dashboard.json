@@ -1,0 +1,12 @@
+{
+    
+        "dashboard": {
+            "student": "Student",
+            "product": "Product",
+            "borrowing": "Borrowing",
+            "Return": "Return"
+        }
+    
+    
+   
+}

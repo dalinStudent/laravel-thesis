@@ -1,0 +1,23 @@
+.template-a {
+    padding: 12px;
+
+    .body {
+        background-color: white!important;
+        padding: 20px 12px 12px 12px !important;
+        border-radius: 5px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .title {
+        text-transform: uppercase;
+        padding: 20px 0;
+        font-size: 30px!important;
+        font-weight: bold;
+        margin-bottom: -12px;
+    }
+}

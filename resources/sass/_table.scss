@@ -1,0 +1,41 @@
+.table-con-border {
+	border:1px solid #dbd9d9;
+
+    thead {
+        border-bottom: 1px solid #dbd9d9;
+        font-weight: bold!important;
+		background-color: $base-color-2!important;
+		color: white!important;
+    }
+}
+
+.my-table {
+	overflow-x: auto;
+	background-color: white;
+	overflow-y: hidden;
+
+	table {
+		background-color: white;
+		border-collapse: collapse;
+		width: 100%;
+		thead {
+			background-color: $base-color-2!important;
+			font-weight: bold!important;
+			color: white!important;
+
+			th {
+				border: 1px solid #ddd;
+				white-space:nowrap;
+				padding: 8px;
+			}
+		}
+	
+		
+		td {
+			text-align: center;
+			border: 1px solid #ddd;
+			white-space:nowrap;
+			padding: 8px;
+		}
+	}
+}

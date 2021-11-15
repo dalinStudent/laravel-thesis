@@ -1,0 +1,25 @@
+.project-card {
+	height: 400px;
+	background-color: white;
+	transition: 0.1s;
+
+	.profile-con {
+		height: 350px;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		background-color: rgb(230, 227, 227);
+
+		.profile {
+			max-height: 350px;
+		}
+	}
+	.name-con {
+		height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+}
+
+

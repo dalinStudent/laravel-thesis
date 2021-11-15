@@ -1,0 +1,14 @@
+{
+    "Student": {
+        "ListofStudent": "បញ្ជីឈ្មោះសិស្ស",
+        "Create": "បង្កើត",
+        "AddStudent": "បញ្ចូលឈ្មោះសិស្ស",
+        "ID": "លេខសម្គាល់",
+        "StudentName":​ "ឈ្មោះ",
+        "Sex": "ភេទ",
+        "Department": "ផ្នែក",
+        "Shift":​ "វេន",
+        "PhoneNumber": "លេខទូរស័ព្ទ",
+        "Action": "សកម្មភាព"
+    }
+}

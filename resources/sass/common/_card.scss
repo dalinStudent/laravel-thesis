@@ -1,0 +1,92 @@
+@media print {
+    .print-area {
+        -webkit-print-color-adjust: exact; 
+    }
+}
+
+@page { 
+	size:  auto!important; 
+	margin: 20px 20px!important; 
+	// position: absolute!important;
+}
+
+.id-card {
+    position: relative;
+    margin: 12px;
+    cursor: pointer;
+
+    .background-img {
+        z-index: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%!important;
+        height: 100%!important;
+
+        img {
+            width: 100%!important;
+            height: 100%!important;
+        }
+    }
+
+    &--info {
+        position: relative;
+
+        .id {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: serif;
+        }
+
+        .profile {
+            justify-content: center;
+            display: flex;
+
+            img {
+                border: 1px solid white;
+                border-radius: 50%;
+            }
+
+        }
+
+        .name {
+            text-align: center;
+        }
+
+        .role {
+            text-align: center;
+        }
+    }
+}
+
+.print-item {
+	margin: 5px;
+	padding: 5px 10px;
+	display: flex;
+	border-radius: 5px;
+	border: 1px solid grey;
+	align-items: center;
+
+    button {
+        font-size: 10px;
+    }
+}
+
+
+.card-setting {
+
+    .input {
+        margin-left: -5px;
+        height: 650px;
+        overflow: auto!important;
+    }
+
+    .layout {
+        display: flex;
+        justify-content: center;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        background-color: #ddd;
+    }
+}

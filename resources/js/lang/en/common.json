@@ -1,0 +1,30 @@
+{
+    "common": {
+        "url": "Url",
+        "login": "Login"
+    },
+    "tooltip": {
+        "verify": "Verify",
+        "detail": "Detail",
+        "edit": "Edit",
+        "delete": "Delete",
+        "change_password": "Change password",
+        "unlock": "Unlock",
+        "lock": "Lock"
+    },
+    "seo": {
+        "seo_title": "SEO:",
+        "title": "Title",
+        "description": "Description",
+        "keyword": "Keyword",
+        "rebots": "Rebots",
+        "refresh": "Refresh",
+        "lang_ref": "Lang Ref",
+        "canonical": "Canonical",
+        "facebook_image": "Facebook Image",
+        "twitter_image": "Twitter Image",
+        "linkedin_image": "Linkedin Image",
+        "instagram_image": "Instagram Image",
+        "pinterest_image": "Pinterest Image"
+    }
+}

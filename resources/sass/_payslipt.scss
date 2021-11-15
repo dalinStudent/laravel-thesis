@@ -1,0 +1,26 @@
+.payslipt {
+	overflow-x: auto;
+	background-color: white;
+	overflow-y: hidden;
+    width: 20cm;
+    -webkit-print-color-adjust: exact;
+    
+	table {
+		background-color: white;
+		border-collapse: collapse;
+		width: 100%;	
+		
+		td {
+			border: 1px solid #ddd;
+			white-space:nowrap;
+			padding: 0 12px ;
+            height: 1cm;
+		}
+
+        .total {
+            background-color: $base-color-2;
+            font-weight: bold;
+            color: #fff;
+        }
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "Product": {
+        "ListofProduct": "បញ្ចីសម្ភារៈ",
+        "Create": "បង្កើត",
+        "Name":​ "ឈ្មោះ",
+        "KhmerName": "ឈ្មោះខ្មែរ",
+        "Model": "ម៉ូដែល",
+        "SerialNumber": "លេខសម្គាល់",
+        "Category": "ប្រភេទ",
+        "Quantity": "ចំនួន",
+        "Note": "កំណត់សម្គាល់",
+        "Action": "សកម្មភាព"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "Borrowing": {
+        "ListofBorrowing": "បញ្ជីខ្ចីសម្ភារៈ",
+        "AddBorrowing": "បញ្ចូល",
+        "ID": "លេខសម្គាល់",
+        "StudentName": "ឈ្មោះ",
+        "Room": "បន្ទប់",
+        "ProductName": "ឈ្មោះសម្ភារៈ",
+        "Qty": "ចំនួន",
+        "TimeOut": "ម៉ោងចេញ",
+        "TimeIn": "ម៉ោងចូល",
+        "Status": "ស្ថានភាព",
+        "Action": "សកម្មភាព",
+        "Note": "កំណត់សម្គាល់"
+    }
+}

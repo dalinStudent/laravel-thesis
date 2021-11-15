@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-bottom: 12px;
+
+    &-right {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    &-left {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+}
+
+.border-tr {
+    border: 1px solid $base-color-2!important;
+    overflow-x: auto;
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th {
+            text-align: center;
+            background-color: $base-color-2!important;
+            padding: 15px 0;
+            color: white!important;
+
+            .v-input--checkbox {
+                margin-top: -10px!important;
+                height: 20px;
+            }
+        }
+
+        td {
+            text-align: center;
+            padding: 5px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        tfoot {
+            
+            td {
+                padding: 12px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .no-result {
+        font-size: 40px;
+    }
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-top: 12px;
+
+    &-right {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    &-left {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+
+        .per-page {
+            width: 100px;
+        }
+    }
+}

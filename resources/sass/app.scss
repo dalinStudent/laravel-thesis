@@ -1,0 +1,54 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import './components/drawer';
+@import './components/app_bar';
+@import './components//worker';
+@import './common/login';
+@import './components/project';
+@import './components/button';
+@import './components/datatable';
+@import './components/template.scss';
+@import './common//card';
+
+@import './color';
+@import './font';
+@import './hover';
+@import './table';
+@import './width';
+@import './payslipt';
+body {
+	background-color: $base-bg-color!important;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#app {
+	height: 100%!important;
+	background-color:  $base-bg-color!important;
+
+	.card-title {
+		// font-family: serif!important;
+		font-size: 30px!important;
+		font-weight: bold!important;
+		color: $base-color-2!important;
+	}
+	
+	.card-custom {
+		overflow: hidden;
+		border-radius: 5px;
+		border: none;
+		padding: 12px;
+		margin: 12px;
+		background-color: $base-color-3;
+	}
+	
+}

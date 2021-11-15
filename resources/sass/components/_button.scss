@@ -1,0 +1,19 @@
+.relative {
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.btn-top-right {
+    position: absolute!important;
+    right: -5px;
+    top: 0;
+}
+
+.btn-top-left {
+    position: absolute!important;
+    left: -5px;
+    top: 0;
+}

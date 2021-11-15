@@ -1,0 +1,6 @@
+.hover-scale {
+    &:hover {
+		box-shadow: 5px 5px 5px rgb(216, 213, 213);
+		transform: scale(1.03);
+	}
+}
